@@ -5,7 +5,7 @@ using UnityEngine;
 public class Playermovement : MonoBehaviour
 {
    Rigidbody playerrigidbody;
-
+ 
    public float idletime = 6f;
     public float speed = 4f;
     [SerializeField] Animator Playeranim;

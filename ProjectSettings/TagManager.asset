@@ -9,6 +9,7 @@ TagManager:
   - KeyRed
   - table
   - lantern
+  - KeyBlue
   layers:
   - Default
   - TransparentFX

@@ -8,7 +8,7 @@ public class playergrabitem : MonoBehaviour
   public GameObject[] ItemHud;
      public AudioSource grabkey;
   private void OnTriggerStay(Collider other) {
-  if (other.CompareTag("key")){if (Input.GetKey(KeyCode.E))
+  if (other.CompareTag("key")){if (Input.GetKeyDown(KeyCode.E))
     {
     itemmanager.Key++;
     other.gameObject.SetActive(false);
@@ -21,7 +21,7 @@ public class playergrabitem : MonoBehaviour
   
 
 
-   if (other.CompareTag("KeyRed")){if (Input.GetKey(KeyCode.E))
+   if (other.CompareTag("KeyRed")){if (Input.GetKeyDown(KeyCode.E))
     {
     itemmanager.RedKey++;
     other.gameObject.SetActive(false);
@@ -33,7 +33,7 @@ public class playergrabitem : MonoBehaviour
     }
 }
 
-if (other.CompareTag("lantern")){if (Input.GetKey(KeyCode.E))
+if (other.CompareTag("lantern")){if (Input.GetKeyDown(KeyCode.E))
     {
     itemmanager.lanternobtained = true;
     other.gameObject.SetActive(false);
@@ -46,5 +46,13 @@ if (other.CompareTag("lantern")){if (Input.GetKey(KeyCode.E))
   
     }
 }
+
+if (other.CompareTag("KeyBlue")){if (Input.GetKeyDown(KeyCode.E))
+    {
+    itemmanager.bluekey++;
+    other.gameObject.SetActive(false);
+    grabkey.Play();
+    ItemHud[5].SetActive(true);
+
 }
-}
+}}}

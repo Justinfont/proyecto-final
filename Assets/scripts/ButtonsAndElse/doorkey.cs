@@ -47,7 +47,7 @@ public  GameObject doorthatneedskey;
  public  void Normalkey()
 {
         rend.sharedMaterial = TypeOfKey[0];
-         if (Input.GetKey(KeyCode.E) && (canopendoor == true)) {
+         if (Input.GetKeyDown(KeyCode.E) && (canopendoor == true)) {
         if (itemmanager.Key > 0)
             {
                 doorthatneedskey.transform.position = doorthatneedskey.transform.position + Vector3.up * 9 ;

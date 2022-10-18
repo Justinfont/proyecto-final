@@ -22,7 +22,7 @@ public class showinventory : MonoBehaviour
     {
      lanterncooldown = false;
      itemmanager.redtext = false;
-     maxbattery = 20;
+     maxbattery = 40;
     }
 
     // Update is called once per frame

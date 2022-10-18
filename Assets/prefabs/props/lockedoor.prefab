@@ -228,7 +228,7 @@ MonoBehaviour:
   TypeOfKey:
   - {fileID: 2100000, guid: 2eca84e240ef77c4a879d1c91b01b518, type: 2}
   - {fileID: 2100000, guid: 72e27792d8f46ab4699716a62f9338d8, type: 2}
-  - {fileID: 2100000, guid: 72e27792d8f46ab4699716a62f9338d8, type: 2}
+  - {fileID: 2100000, guid: d5ff819651db46e45b2d163942a7211c, type: 2}
   Keytype: 0
   doorthatneedskey: {fileID: 3976250850372369203}
 --- !u!65 &3976250850697090871
